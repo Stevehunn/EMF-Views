@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Alma
+Bundle-SymbolicName: fr.alma.website.plugin
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: fr.alma.web.model;bundle-version="0.1.0",
+ org.eclipse.emf.ecore.xmi;bundle-version="2.15.0"
+Automatic-Module-Name: fr.alma.website.plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
