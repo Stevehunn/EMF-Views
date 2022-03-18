@@ -1,0 +1,2 @@
+contributingMetamodels=publication::http://publication,book::http://book
+weavingModel=publicationsAndBooks.xmi

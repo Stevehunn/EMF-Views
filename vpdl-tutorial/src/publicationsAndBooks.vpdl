@@ -1,0 +1,11 @@
+create view publicationsAndBooks as
+
+select publication.Publication.*,
+       publication.Publication join book.Chapter as firstChapter,
+       book.Chapter.title,
+
+from 'http://publication' as publication,
+     'http://book' as book,
+
+where s.title = t.eContainer().title and t = t.eContainer().eContents().first()
+      for firstChapter
