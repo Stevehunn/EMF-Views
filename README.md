@@ -10,3 +10,5 @@ Les fichiers se nomment :
 -fr.alma.web.model.editor
 -Alma
 
+Le fichier qui concerne le tutoriel sur la réalisation d'un View par vpdl est :
+-vpdl-tutorial
